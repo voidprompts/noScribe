@@ -1,3 +1,6 @@
+# Re-include src/ (the parent noScribe .gitignore excludes "src/" globally)
+!src/
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -32,6 +35,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
